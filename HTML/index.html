@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jogo-pedra-papel-tesoura</title>
+
+</head>
+
+<body> 
+
+    <h1>Jogo (Pedra-Papel-Tesoura)</h1>
+    <h3 id="placar-humano">Meus pontos:</h3>  <!--Cabeçalho-->
+
+    <img src="file:///C:/Users/HederCLessa/Documents/Script/HTML/imagens/pedra.png" alt="papel" height="150">
+    <img src="file:///C:/Users/HederCLessa/Documents/Script/HTML/imagens/papel.png" alt="pedra" height="150">        
+    <img src="file:///C:/Users/HederCLessa/Documents/Script/HTML/imagens/tesoura.png" alt="tesoura" height="150">
+                
+    <form name = "escolha-humano">
+        <input type="radio" name="escolha" id="pedra">Pedra &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <input type="radio" name="escolha" id="papel">Papel &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <input type="radio" name="escolha" id="tesoura">Tesoura &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<br><br>
+
+            <p> 
+                <input type="button" value=" Jogar " onclick="jogar()">
+                <input type="reset" value=" reset " onclick="resetar()">
+            </p><br>
+            
+    </form>
+
+    <hr>
+    <h3 id="resultado"></h3> 
+    <hr>  
+    <img src="file:///C:/Users/HederCLessa/Documents/Script/HTML/imagens/robo.jpg" height="300" alt="robo" id="robo">
+    <hr>    
+    <script src="file:///C:/Users/HederCLessa/Documents/Script/script.js"></script>
+
+</body>
+
+</html>
